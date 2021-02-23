@@ -1,0 +1,8 @@
+	component clock_108Mhz is
+		port (
+			clk_in_clk         : in  std_logic := 'X'; -- clk
+			clk_out_108mhz_clk : out std_logic;        -- clk
+			rst_reset          : in  std_logic := 'X'  -- reset
+		);
+	end component clock_108Mhz;
+

@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -7.368
+TNS   : -285.639
+
+Type  : Slow 1100mV 85C Model Setup 'r_edge_d_flip_sync_reset:flip_flop|tmp'
+Slack : -4.742
+TNS   : -303.192
+
+Type  : Slow 1100mV 85C Model Hold 'r_edge_d_flip_sync_reset:flip_flop|tmp'
+Slack : 0.540
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.613
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'r_edge_d_flip_sync_reset:flip_flop|tmp'
+Slack : -0.724
+TNS   : -88.438
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -87.460
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -7.522
+TNS   : -280.590
+
+Type  : Slow 1100mV 0C Model Setup 'r_edge_d_flip_sync_reset:flip_flop|tmp'
+Slack : -4.777
+TNS   : -303.038
+
+Type  : Slow 1100mV 0C Model Hold 'r_edge_d_flip_sync_reset:flip_flop|tmp'
+Slack : 0.555
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.635
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -89.263
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'r_edge_d_flip_sync_reset:flip_flop|tmp'
+Slack : -0.724
+TNS   : -87.585
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -3.532
+TNS   : -81.795
+
+Type  : Fast 1100mV 85C Model Setup 'r_edge_d_flip_sync_reset:flip_flop|tmp'
+Slack : -1.718
+TNS   : -103.189
+
+Type  : Fast 1100mV 85C Model Hold 'r_edge_d_flip_sync_reset:flip_flop|tmp'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.221
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.505
+TNS   : -7.462
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'r_edge_d_flip_sync_reset:flip_flop|tmp'
+Slack : 0.013
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -3.047
+TNS   : -69.789
+
+Type  : Fast 1100mV 0C Model Setup 'r_edge_d_flip_sync_reset:flip_flop|tmp'
+Slack : -1.473
+TNS   : -90.387
+
+Type  : Fast 1100mV 0C Model Hold 'r_edge_d_flip_sync_reset:flip_flop|tmp'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.214
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.494
+TNS   : -7.313
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'r_edge_d_flip_sync_reset:flip_flop|tmp'
+Slack : 0.040
+TNS   : 0.000
+
+------------------------------------------------------------

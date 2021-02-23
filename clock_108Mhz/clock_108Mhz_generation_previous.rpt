@@ -1,0 +1,32 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\alexa\Desktop\VGA\clock_108Mhz.qsys --block-symbol-file --output-directory=C:\Users\alexa\Desktop\VGA\clock_108Mhz --family="Cyclone V" --part=5CSXFC6D6F31C8
+Progress: Loading VGA/clock_108Mhz.qsys
+Progress: Reading input file
+Progress: Adding pll_0 [altera_pll 16.1]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: clock_108Mhz.pll_0: The legal reference clock frequency is 5.0 MHz..650.0 MHz
+Info: clock_108Mhz.pll_0: Able to implement PLL with user settings
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\alexa\Desktop\VGA\clock_108Mhz.qsys --synthesis=VERILOG --output-directory=C:\Users\alexa\Desktop\VGA\clock_108Mhz\synthesis --family="Cyclone V" --part=5CSXFC6D6F31C8
+Progress: Loading VGA/clock_108Mhz.qsys
+Progress: Reading input file
+Progress: Adding pll_0 [altera_pll 16.1]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: clock_108Mhz.pll_0: The legal reference clock frequency is 5.0 MHz..650.0 MHz
+Info: clock_108Mhz.pll_0: Able to implement PLL with user settings
+Info: clock_108Mhz: Generating clock_108Mhz "clock_108Mhz" for QUARTUS_SYNTH
+Info: pll_0: "clock_108Mhz" instantiated altera_pll "pll_0"
+Info: clock_108Mhz: Done "clock_108Mhz" with 2 modules, 3 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

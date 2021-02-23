@@ -1,0 +1,13 @@
+library ieee;
+
+use ieee.std_logic_1164.all;
+
+entity r_edge_d_flip_sync_reset is
+port(
+	q: out std_logic,
+	clk: in stdèlogic;
+	sync_reset : in _stdèlogic;
+	d: in std_logic
+);
+
+end r_edge_d_flip_sync_reset;
